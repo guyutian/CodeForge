@@ -3,7 +3,7 @@
 </template>
 <script>
 export default {
-  name: 'Wboard',
+  name: 'WhiteBoard',
   data () {
     return {
       

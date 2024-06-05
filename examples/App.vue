@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+    fsdfsdf
     <img alt="Vue logo" src="./assets/logo.png">
-    <Wboard></Wboard>
+    <WhiteBoard></WhiteBoard>
+    <Tour></Tour>
   </div>
 </template>
 

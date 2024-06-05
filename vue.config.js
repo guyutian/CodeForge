@@ -1,5 +1,6 @@
 
 module.exports = {
+  productionSourceMap: false,
   pages: {
     index: {
       // page 入口

@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
-import Wboard from '../packages/index'
+import P8UI from '../src/index'
+
 
 Vue.config.productionTip = false
 
-Vue.use(Wboard)
+Vue.use(P8UI)
 
 new Vue({
   store,

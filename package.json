@@ -1,5 +1,5 @@
 {
-  "name": "w-board",
+  "name": "codeforge",
   "version": "0.1.0",
   "description": "whiteboard for vue",
   "main": "lib/Wboard.umd.min.js",
@@ -10,7 +10,7 @@
     "start": "npm run serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name Wboard --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name Wboard --dest lib src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",

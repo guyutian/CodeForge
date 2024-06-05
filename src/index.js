@@ -1,9 +1,11 @@
 // 导入单个文件
-import Wboard from './wboard/src/index.vue'
+import WhiteBoard from '../packages/white-board/index'
+import Tour from '../packages/Tour/index'
 
 // 以数组结构保存组件，便于遍历
 const components = [
-  Wboard
+  WhiteBoard,
+  Tour
 ]
 
 // 定义 install 方法
@@ -26,6 +28,5 @@ export default {
   // 组件列表
   ...components
 }
-
 
 
